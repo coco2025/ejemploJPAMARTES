@@ -24,8 +24,7 @@ public class TblEmpleado implements Serializable {
 	private String dni;
 
 	private String email;
-    
-	//anotacion para fechas....
+
 	@Temporal(TemporalType.DATE)
 	private Date fechanac;
 
